@@ -33,8 +33,7 @@ async def assistant(event):
         if event.is_private and event.sender_id in sed:
             return
         await event.reply(
-            f"Hey there, this is Assistant of {OWNER_NAME}!\n\n{ok}you can contect me this bot i will reply your message ASAP"
-          
+            f"Hey there, this is Assistant of {OWNER_NAME}!\n\n{ok} \n you can contect me this bot i will reply your message ASAP"
         )
 
 
